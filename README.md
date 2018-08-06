@@ -45,16 +45,7 @@ namespace XXXX
             }
             base.OnInit(e);
         }
-        //protected override void OnPreInit(EventArgs e)
-        //{
-        //    object user = Session[BasePage.USER];
-        //    if ((user != null && user is User) == false)
-        //    {
-        //        Session[BasePage.USER] = null;
-        //        Response.Redirect("Login.aspx");
-        //    }
-        //    base.OnPreInit(e);
-        //}
+        
         public void redirect(string aspx)
         {
             Response.Redirect(aspx);
